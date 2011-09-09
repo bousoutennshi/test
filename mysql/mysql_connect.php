@@ -1,12 +1,10 @@
 <?php
-try{
-    $dbh = new PDO(
-        'mysql:host=localhost:port=3306:dbname=test',
-        'myokota',
-        'bousou'
-    );
-}catch(PDOException $e){
-    print $e->getMessage();
+
+$ret = mysql_connect('localhost', 'myokota', 'bousou');
+if( !$ret ){
+    die('mysql connect error : '.mysql_error());
 }
+echo "mysql connect success!!\n";
+mysql_close($ret);
 
 ?>
