@@ -2,11 +2,11 @@
 // Basic認証
 function AuthenticateUser($user,$pwd){
     // mysql connect
-    $dsn        = 'mysql:dbname=ro;host=localhost';
-    $user       = 'myokota';
-    $password   = 'bousou';
+    $dsn            = 'mysql:dbname=ro;host=localhost';
+    $db_user        = 'myokota';
+    $db_password    = 'bousou';
     try {
-        $dbh = new PDO($dsn, $user, $password);
+        $dbh = new PDO($dsn, $db_user, $db_password);
     } catch (PDOException $e) {
         echo 'Connection failed: ' . $e->getMessage();
         exit;
