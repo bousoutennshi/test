@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="content-type" content="text/html" charset="UTF-8">
-        <base href="http://www38143u.sakura.ne.jp/">
+        <base href="http://www2228ue.sakura.ne.jp/">
         <title>プチ物語♪</title>
         <!-- 独自設定 -->
-        <link rel="stylesheet" href="http://www38143u.sakura.ne.jp/ro/css/yume.css" />
+        <link rel="stylesheet" href="http://www2228ue.sakura.ne.jp/ro/css/yume.css" />
         <meta name="author" content="myokota">
         <meta name="keywords" content="RO,Ses,ラグナロクオンライン,ギルド,プチ物語">
         <meta name="description" content="ラグナロクオンライン Sesサーバ プチ物語のサイト">
@@ -62,12 +62,12 @@
                             li_items.click(function() {
                                 var str = $("li").live("click", function() {
                                     var name = $(this).attr("name");
-                                    $("#ifrm").attr("src",'http://www38143u.sakura.ne.jp/ro/' + name + '.php');
+                                    $("#ifrm").attr("src",'http://www2228ue.sakura.ne.jp/ro/' + name + '.php');
                                     /*
                                     if( name == "bbs" ){
                                         $("#ifrm").attr("src",'http://jbbs.livedoor.jp/netgame/10145/');
                                     }else{
-                                        $("#ifrm").attr("src",'http://www38143u.sakura.ne.jp/ro/' + name + '.php');
+                                        $("#ifrm").attr("src",'http://www2228ue.sakura.ne.jp/ro/' + name + '.php');
                                     }
                                     */
                                     exit;
@@ -122,7 +122,7 @@
             </script>
         </div>
         <div id="contents">
-            <iframe id="ifrm" src="http://www38143u.sakura.ne.jp/ro/contents.php" allowtransparency="true"></iframe>
+            <iframe id="ifrm" src="http://www2228ue.sakura.ne.jp/ro/contents.php" allowtransparency="true"></iframe>
         </div>
         <div id="footer">
             <h6>Copyright © 2012 Masashi Yokota All Rights Reserved.</h6>
