@@ -11,7 +11,7 @@
 
         <div id="contents">
             <ul>
-                <li><a href="http://www38143u.sakura.ne.jp/ro/yume.php">Ro Guild Site</a></li>
+                <li><a href="http://www2228ue.sakura.ne.jp/ro/yume.php">Ro Guild Site</a></li>
                 <li><a href="#">Video Site</a></li>
                 <li><a href="#">Word Press</a></li>
             </ul>
