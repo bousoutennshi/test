@@ -69,7 +69,7 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 <html>
     <head>
         <title>bbs site</title>
-        <link rel="stylesheet" href="http://www38143u.sakura.ne.jp/ro/css/bbs.css" />
+        <link rel="stylesheet" href="http://www2228ue.sakura.ne.jp/ro/css/bbs.css" />
         <script type="text/javascript" src="http://jsajax.com/jQuery/jquery.js"></script>
         <script type="text/javascript">  
             $(document).ready(function() {  
